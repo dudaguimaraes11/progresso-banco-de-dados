@@ -10,3 +10,18 @@ CREATE TABLE artistas (
     ativo BOOLEAN DEFAULT TRUE
 ); 
 
+INSERT INTO artistas (nome, tipo, membros, genero_musical,
+ pais_origem, ano_inicio, musica_mais_famosa, ativo)
+VALUES 
+('Coldplay', 'Banda', 4, 'Pop', 'Reino Unido', 1996, 'Yellow', TRUE), 
+('Shawn Mendes', 'Solo', 1, 'Pop', 'Canadá', 2013, 'There´s Nothing Holdin Me Back', TRUE),
+('Bruno Mars', 'Solo', 1, 'Pop', 'Estados Unidos', 2010, 'When I Was Your Man', TRUE)
+;
+
+
+ 
+
+
+
+
+
