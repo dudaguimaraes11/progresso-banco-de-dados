@@ -1,6 +1,6 @@
 SELECT * FROM usuarios; 
 
-UPDATE usuarios SET username = 'ProGamer2025'
+UPDATE produtosBeleza SET produtos = 'ProGamer2025'
 WHERE username = 'NoobMaster'; 
 
 SELECT * FROM usuarios; 
