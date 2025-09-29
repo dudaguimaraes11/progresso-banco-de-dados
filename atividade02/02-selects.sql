@@ -1,4 +1,4 @@
-SELECT * FROM produtosBeleza; 
+SELECT * FROM produtosDeBeleza; 
 
 
 

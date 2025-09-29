@@ -1,6 +1,6 @@
-CREATE DATABASE beautytechdatabase;
+CREATE DATABASE belezatechdb;
 
-CREATE TABLE produtosBeleza (
+CREATE TABLE produtosDeBeleza (
     id SERIAL PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
     marca VARCHAR(50) NOT NULL,
@@ -9,7 +9,7 @@ CREATE TABLE produtosBeleza (
     estoque INT DEFAULT 0
 );
 
-INSERT INTO produtosBeleza (nome, marca, preco, categoria, estoque)
+INSERT INTO produtosDeBeleza (nome, marca, preco, categoria, estoque)
 VALUES 
 ('Perfume Miss Dior Eau de Parfum', 'Dior', 615.90, 'Perfumaria', 50), 
 ('Dior Backstage Iluminador Glow Maximizer', 'Dior', 405.00, 'Maquiagem', 35), 
